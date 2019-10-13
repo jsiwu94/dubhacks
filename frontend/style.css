@@ -1,0 +1,259 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    font-size: 16px;
+    color: #1a2c79;
+
+}
+
+/*Top Menu Nav Bar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/*Links*/
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: 1a2c79;
+}
+
+/*Animated Hero Typography*/
+
+h1,
+h2,
+h3 {
+    font-weight: 200;
+    margin: 0.4em 0;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 3.5em;
+}
+
+h2 {
+    color: #1a2c79;
+    font-size: 2em;
+}
+
+h3 {
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+}
+
+p {
+    text-align: center;
+}
+
+.hero {
+    padding: 3em;
+    margin: 2em;
+}
+
+body {
+    -webkit-animation: background 10s ease-in-out infinite;
+    animation: background 10s ease-in-out infinite;
+}
+
+
+/*Button Styling*/
+.btn {
+    border: 3px solid white;
+    padding: 12px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+
+/*CTA Styling*/
+
+.cta {
+    font-weight: 200;
+    font-size: 1.3em;
+    margin: 3em;
+}
+
+
+/*Card Styling*/
+.info-section .card-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em;
+    padding: 0 1.3rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .info-section .card-group {
+        padding: 0 1.3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .info-section .card-group {
+        background-color: transparent;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0;
+    }
+}
+
+.info-section .card-group h3 {
+    text-transform: uppercase;
+    color: #2b39bf;
+    font-weight: 800;
+}
+
+.flex-spacing {
+    flex: 1;
+}
+
+.mainTextBold {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 150px;
+    padding: 1.5rem;
+    margin: 1.3rem 0.5rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 25vw;
+        margin: 1.3rem 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        margin: 1.3rem 2rem;
+    }
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header div {
+    width: 66px;
+    height: fit-content;
+}
+
+.card-header img {
+    height: 51px;
+}
+
+/*Prompt Button*/
+.prompt-btn {
+    background-color: #1a2c79;
+    padding: 12px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    transition: 0.3s;
+    color: white;
+}
+
+
+/*Colour Changing Background*/
+
+@-webkit-keyframes background {
+    0% {
+        background-color: #f99;
+    }
+
+    33% {
+        background-color: #9f9;
+    }
+
+    67% {
+        background-color: #99f;
+    }
+
+    100% {
+        background-color: #f99;
+    }
+}
+
+@keyframes background {
+    0% {
+        background-color: #f99;
+    }
+
+    33% {
+        background-color: #9f9;
+    }
+
+    67% {
+        background-color: #99f;
+    }
+
+    100% {
+        background-color: #f99;
+    }
+}

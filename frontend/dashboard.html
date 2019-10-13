@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Dashboard | PROP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dash_styles.css">
+</head>
+
+<body>
+    <!--Top Navigation-->
+    <div class="topnav" style="font-size: 2rem;">
+        <a class="active" href="index.html"><img src="Assets/logo.png" width="100px"></a>
+
+        <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MY DASHBOARD</a>
+        <div class="topnav-right">
+            <a href="#notification">
+                <i class="fa fa-bell"></i>
+            </a>
+            <a href="#user">
+                <i class="fa fa-user-circle"></i>
+                Elon_Musk</a>
+            <a href="#about"><i class="fa fa-cog" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <!--Side Bar Navigation-->
+    <div class="sidebar">
+        <br><br>
+        <a href="dashboard.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="http://twitter.com"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+        <a href="http://spotify.net"><i class="fa fa-fw fa-spotify"></i> Spotify</a>
+        <a href="http://instagram.com"><i class="fa fa-fw fa-instagram"></i>Instagram</a>
+    </div>
+
+    <div class="main">
+        <div class="banner">
+            <table id="welcome">
+                <tr>
+                    <th>
+                        <h1>WELCOME BACK ELON!</h1>
+                        <p>Take a breather and relax those shoulders!</p>
+                    </th>
+
+                    <th>
+                        <img src="Assets/fireworks-l.png" style="width: 100px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Assets/top-banner.png" style="width: 100px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Assets/fireworks-r.png" style="width: 100px">
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <table>
+            <tr>
+                <th>
+                    <div class="mood">
+                        <h2>MOOD CHECK-IN</h2>
+
+                        <p>What's your mood today?</p>
+                        <br>
+                        <img src="Assets/mood-checkin.png" width="165">
+                        <br><br>
+                        <div class="dashbtn"><a href="prompt.html">CHECK-IN</a></div>
+
+                    </div>
+
+                </th>
+                <th>
+                    <div class="graph">
+                        <h2>INSIGHTS GRAPH</h2>
+                        <table>
+                            <tr>
+                                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                                <th>
+                                    <div class="tab">
+                                        <button class="tablinks" onclick="openDate(event, '1week')" id="defaultOpen">1 Week</button>
+                                        <button class="tablinks" onclick="openDate(event, '1month')">1 Month</button>
+                                        <button class="tablinks" onclick="openDate(event, '3months')">3 Months</button>
+                                    </div>
+
+                                    <div id="1week" class="tabcontent">
+                                        <img src="Assets/graph3.png" width="450px">
+                                    </div>
+
+                                    <div id="1month" class="tabcontent">
+                                        <img src="Assets/graph1.png" width="450px">
+
+                                    </div>
+
+                                    <div id="3months" class="tabcontent">
+
+                                        <img src="Assets/graph2.png" width="450px">
+                                    </div>
+
+                                </th>
+                            </tr>
+                        </table>
+                        <br>
+
+                    </div>
+                </th>
+            </tr>
+        </table>
+
+    </div>
+
+    <script>
+        function openDate(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+
+    </script>
+</body>
+
+</html>
