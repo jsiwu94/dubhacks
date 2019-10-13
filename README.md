@@ -39,3 +39,7 @@ In the future, we plan to:
 1. Merge additional data points to more accurately predict our clients’ mood through other services like Whatsapp, text messages, email, search history, and Clients’ Survey Answers).
 2. Develop partnerships with therapists to facilitate therapy appointment suggestions for customers having a constantly low happiness index. 
 3. Provide recommendations on what activities can be done if we are to predict a decrease in the happiness index. These suggestions can be to watch a movie, going to a restaurant, listening to music etc. 
+
+# Try it out
+www.prop-me-up.space
+
