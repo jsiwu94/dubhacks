@@ -15,7 +15,7 @@ The score index range breakdown is as below :
 
 
 # How we built it
-Initially trying to build the front-end with React but having different CSS stylesheets made it difficult, so we used HTML/JS/CSS instead.
+We used HTML / JS / CSS for the frontend.
 The backend runs on Flask, pulling live data from Twitter for a user handle and calculates sentiment scores using Google Cloud NLP.
 ### Running the backend
 ```
@@ -32,6 +32,7 @@ We are proud of the prototype that we were able to build within less than 24-hou
 
 # What we learned
 Overall it was a great learning experience for us. We discovered things in NLP we previously had not known and learnt totally new concepts such as valence score as they were required for our project to work.
+We were initially trying to build the front-end with React but having different CSS stylesheets made it difficult.
 
 # What's next for Prop
 In the future, we plan to:
