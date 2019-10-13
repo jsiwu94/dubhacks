@@ -22,7 +22,7 @@ To calculate the sentiment scores for twitter data, we used Google Cloud NLP.
 
 
 # Accomplishments that we're proud of
-We are proud of the prototype that we were able to build within less than 24-hour, particularly in the live twitter API and Javascript for the UI.
+We are proud of the prototype that we were able to build within less than 24-hour, particularly in the live twitter API and the Javascript for the front-end.
 
 # What we learned
 Overall it was a great learning experience for us. We discovered things in NLP we previously had not known and learnt totally new concepts such as valence score as they were required for our project to work.
