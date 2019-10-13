@@ -1,5 +1,3 @@
-# Prop
-
 ![prop logo](./prop_logo.png)
 
 
