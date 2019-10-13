@@ -42,7 +42,7 @@ twitter_access_token_secret = '7FJztNRybT4VKAJJYB9YlAlPgyvQ6ntj7L54sJngLW0Hd'
 @app.route('/')
 def index():
     
-    getStuffFromTwitter()
+    #getStuffFromTwitter()
     return ''
 
 
@@ -55,6 +55,7 @@ access_token_secret=twitter_access_token_secret)
     
     some_list = []
     elon_timeline = twitter_api.GetUserTimeline(screen_name='elonmusk', count=200, include_rts=False)
+    print(len(elon_timeline))
     for status in elon_timeline:
         some_list.append({
         'id' : status.id_str,
