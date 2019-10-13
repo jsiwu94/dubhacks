@@ -11,31 +11,14 @@ It allows clients to detect their happiness level on a daily basis based on vari
 
 We also provide a chart which the historical index, and thus motivates the clients to strive for better happiness levels.
 
-The index range breakdown is as below :
--1 to -.8 --> very negative
--.8 to -.5 --> negative
--.5 to -.3 --> somewhat negative
--.3 to .3 --> neutral
-.3 to .5 --> somewhat positive
-.5 to .8 --> positive
-.8 to 1 --> very positive
-
-def score_range(score):
-        if score <= -.8:
-            o = -.8
-        elif score > -.8 and score <= -.5:
-            o = -.5
-        elif score > -.5 and score <= -.3:
-            o = -.3
-        elif score > -.3 and score <= .3:
-            o = 0
-        elif score > .3 and score <= .5:
-            o = .3
-        elif score > .5 and score <= .8:
-            o = .5
-        else:
-            o = .8
-        return(o)
+The score index range breakdown is as below :
+-1 >= score_index <= -.8 --> very negative
+-.8  > score_index <=  -.5 --> negative
+-.5 > score_index <= -.3 --> somewhat negative
+-.3 > score_index <= .3 --> neutral
+.3 > score_index <= .5 --> somewhat positive
+.5 > score_index <= .8 --> positive
+.8 > score_index <= 1 --> very positive
 
 
 # How we built it
