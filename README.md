@@ -22,9 +22,10 @@ To calculate the sentiment scores for twitter data, we used Google Cloud NLP.
 
 
 # Accomplishments that we're proud of
-
+We are proud of the prototype that we were able to build within less than 24-hour, particularly in the live twitter API and Javascript for the UI.
 
 # What we learned
-
+Overall it was a great learning experience for us. We discovered things in NLP we previously had not known and learnt totally new concepts such as valence score as they were required for our project to work.
 
 # What's next for Prop
+In the future, we hope to develop partnerships with therapists to facilitate therapy appointment suggestions for customers having a constantly low happiness index. We also aim to provide recommendations on what activities can be done if we suspect a decrease in the happiness index. These suggestions can be watching a movie, going to a restaurant, listening to music etc. 
