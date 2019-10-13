@@ -16,6 +16,8 @@ The score index range breakdown is as below :
 
 
 # How we built it
+We created the webpage through Javascript, React, HTML, and CSS. 
+To calculate the sentiment scores for twitter data, we used Google Cloud NLP.
 
 
 # Accomplishments that we're proud of
