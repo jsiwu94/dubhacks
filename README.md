@@ -12,13 +12,7 @@ It allows clients to detect their happiness level on a daily basis based on vari
 We also provide a chart which the historical index, and thus motivates the clients to strive for better happiness levels.
 
 The score index range breakdown is as below :
--1 >= score_index <= -.8 --> very negative
--.8  > score_index <=  -.5 --> negative
--.5 > score_index <= -.3 --> somewhat negative
--.3 > score_index <= .3 --> neutral
-.3 > score_index <= .5 --> somewhat positive
-.5 > score_index <= .8 --> positive
-.8 > score_index <= 1 --> very positive
+![alt text](https://github.com/jsiwu94/dubhacks/blob/master/Screen%20Shot%202019-10-13%20at%205.00.03%20AM.png)
 
 
 # How we built it
