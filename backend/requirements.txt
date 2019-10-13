@@ -1,0 +1,17 @@
+certifi==2018.10.15
+chardet==3.0.4
+Click==7.0
+Flask==1.0.2
+future==0.18.0
+idna==2.7
+itsdangerous==1.1.0
+Jinja2==2.10
+MarkupSafe==1.1.0
+oauthlib==3.1.0
+pygame==1.9.4
+python-twitter==3.5
+requests==2.20.0
+requests-oauthlib==1.2.0
+urllib3==1.24.1
+virtualenv==16.7.5
+Werkzeug==0.14.1
